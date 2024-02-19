@@ -1,0 +1,18 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/CSR.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/Otter_Wrapper.sv,,CSR,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/Otter_Wrapper.sv,1708215058,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/alu.sv,,OTTER_Wrapper,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/alu.sv,1708307455,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/control_unit_dcdr.sv,,ALU,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/control_unit_dcdr.sv,1708215801,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/control_unit_fsm.sv,,CU_DCDR,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/control_unit_fsm.sv,1708216969,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/dbounce_v1_01-1.sv,,CU_FSM,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/otter_mcu.sv,1708308031,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/otter_memory.sv,,OTTER_MCU,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/otter_memory.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/reg_file.sv,,Memory,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/dbounce_v1_01-1.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/one_shot_posneg_v1_02-1.sv,,DBounce,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/one_shot_posneg_v1_02-1.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/otter_mcu.sv,,one_shot_bdir,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/timer_counter_v1_02.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/test_pipeline.sv,,timer_counter,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/reg_file.sv,1708213426,systemVerilog,,/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/perphierals/timer_counter_v1_02.sv,,RegFile,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/register_sync_clr.v,1708213426,verilog,,,,reg_nb_sclr,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/rtl/test_pipeline.sv,1708214886,systemVerilog,,,,test_pipeline,,uvm,,,,,,
+/home/danny/Documents/HDL/riscv_multicycle_mcu/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
