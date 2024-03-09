@@ -35,7 +35,7 @@
          
     //- INPUT PORT IDS ---------------------------------------------------------
     localparam BUTTONS_PORT_ADDR      = 32'h11008004;  // 0x11008004
-    localparam SWITCHES_PORT_ADDR     = 32'h11000004;  // 0x11000004  
+    localparam SWITCHES_PORT_ADDR     = 32'h11008000;  // 0x11008000  
                   
     //- OUTPUT PORT IDS --------------------------------------------------------
     localparam LEDS_PORT_ADDR         = 32'h1100C000;  // 0x1100C000 

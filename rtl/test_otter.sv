@@ -48,16 +48,12 @@ module test_pipeline();
     assign btns[4] = rst;
 
     always begin
-    #10 clk = ~clk; 
+        #10 clk = ~clk; 
     end  
 
 
     initial begin
         clk = 0; rst = 0;
-        // #5;
-        // rst = 1'b1;
-        // #6;
-        // rst = 1'b0;
         #600;
         $finish;
     end
