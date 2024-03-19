@@ -1,14 +1,11 @@
 # =====================================
 # PROGRAM:
-#           Blink an LED at 3 Hz using a delay
-# 
-# 
-# 
+#   Blink an LED at 3 Hz using a delay
 # =====================================
 
 init:
     li s0, 0x1100C000           # led addr
-    li a0, 1                    # current LED state
+    li a0, 0                    # current LED state
 
 loop:
     xori a0, a0, 1              # toggle LED

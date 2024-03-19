@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_pipeline_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_pipeline" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="438,938.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="439,768.300 ns"></ZoomEndTime>
+      <Cursor1Time time="439,350.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/test_pipeline/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/leds" type="array">
+      <obj_property name="ElementShortName">leds[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/btns" type="array">
+      <obj_property name="ElementShortName">btns[4:0]</obj_property>
+      <obj_property name="ObjectShortName">btns[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/DUT/my_otter/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/DUT/my_otter/INTR" type="logic">
+      <obj_property name="ElementShortName">INTR</obj_property>
+      <obj_property name="ObjectShortName">INTR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_pipeline/DUT/my_otter/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="group129" type="group">
+      <obj_property name="label">MCU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/INTR" type="logic">
+         <obj_property name="ElementShortName">INTR</obj_property>
+         <obj_property name="ObjectShortName">INTR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/RESET" type="logic">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/IOBUS_IN" type="array">
+         <obj_property name="ElementShortName">IOBUS_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IOBUS_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/IOBUS_OUT" type="array">
+         <obj_property name="ElementShortName">IOBUS_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IOBUS_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/IOBUS_ADDR" type="array">
+         <obj_property name="ElementShortName">IOBUS_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IOBUS_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/IOBUS_WR" type="logic">
+         <obj_property name="ElementShortName">IOBUS_WR</obj_property>
+         <obj_property name="ObjectShortName">IOBUS_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/pc" type="array">
+         <obj_property name="ElementShortName">pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mux_pc" type="array">
+         <obj_property name="ElementShortName">mux_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/ir" type="array">
+         <obj_property name="ElementShortName">ir[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/dout2" type="array">
+         <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mux_regfile" type="array">
+         <obj_property name="ElementShortName">mux_regfile[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_regfile[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/rs1" type="array">
+         <obj_property name="ElementShortName">rs1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/rs2" type="array">
+         <obj_property name="ElementShortName">rs2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/u_type" type="array">
+         <obj_property name="ElementShortName">u_type[31:0]</obj_property>
+         <obj_property name="ObjectShortName">u_type[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/i_type" type="array">
+         <obj_property name="ElementShortName">i_type[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i_type[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/s_type" type="array">
+         <obj_property name="ElementShortName">s_type[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_type[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/b_type" type="array">
+         <obj_property name="ElementShortName">b_type[31:0]</obj_property>
+         <obj_property name="ObjectShortName">b_type[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/j_type" type="array">
+         <obj_property name="ElementShortName">j_type[31:0]</obj_property>
+         <obj_property name="ObjectShortName">j_type[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/jalr" type="array">
+         <obj_property name="ElementShortName">jalr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jalr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/jal" type="array">
+         <obj_property name="ElementShortName">jal[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jal[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/branch" type="array">
+         <obj_property name="ElementShortName">branch[31:0]</obj_property>
+         <obj_property name="ObjectShortName">branch[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/alu_out" type="array">
+         <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mux_srcA" type="array">
+         <obj_property name="ElementShortName">mux_srcA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_srcA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mux_srcB" type="array">
+         <obj_property name="ElementShortName">mux_srcB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_srcB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/br_eq" type="logic">
+         <obj_property name="ElementShortName">br_eq</obj_property>
+         <obj_property name="ObjectShortName">br_eq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/br_lt" type="logic">
+         <obj_property name="ElementShortName">br_lt</obj_property>
+         <obj_property name="ObjectShortName">br_lt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/br_ltu" type="logic">
+         <obj_property name="ElementShortName">br_ltu</obj_property>
+         <obj_property name="ObjectShortName">br_ltu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/pcWrite" type="logic">
+         <obj_property name="ElementShortName">pcWrite</obj_property>
+         <obj_property name="ObjectShortName">pcWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/regWrite" type="logic">
+         <obj_property name="ElementShortName">regWrite</obj_property>
+         <obj_property name="ObjectShortName">regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/memWE2" type="logic">
+         <obj_property name="ElementShortName">memWE2</obj_property>
+         <obj_property name="ObjectShortName">memWE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/memRDEN1" type="logic">
+         <obj_property name="ElementShortName">memRDEN1</obj_property>
+         <obj_property name="ObjectShortName">memRDEN1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/memRDEN2" type="logic">
+         <obj_property name="ElementShortName">memRDEN2</obj_property>
+         <obj_property name="ObjectShortName">memRDEN2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/rf_wr_sel" type="array">
+         <obj_property name="ElementShortName">rf_wr_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rf_wr_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/alu_srcA" type="array">
+         <obj_property name="ElementShortName">alu_srcA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_srcA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/alu_srcB" type="array">
+         <obj_property name="ElementShortName">alu_srcB[2:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_srcB[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/pcSource" type="array">
+         <obj_property name="ElementShortName">pcSource[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pcSource[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/alu_fun" type="array">
+         <obj_property name="ElementShortName">alu_fun[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_fun[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mepc" type="array">
+         <obj_property name="ElementShortName">mepc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mepc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mtvec" type="array">
+         <obj_property name="ElementShortName">mtvec[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mtvec[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/csr_RD" type="array">
+         <obj_property name="ElementShortName">csr_RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/mret_exec" type="logic">
+         <obj_property name="ElementShortName">mret_exec</obj_property>
+         <obj_property name="ObjectShortName">mret_exec</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/int_taken" type="logic">
+         <obj_property name="ElementShortName">int_taken</obj_property>
+         <obj_property name="ObjectShortName">int_taken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/csr_WE" type="logic">
+         <obj_property name="ElementShortName">csr_WE</obj_property>
+         <obj_property name="ObjectShortName">csr_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/csr_mstatus_mie" type="logic">
+         <obj_property name="ElementShortName">csr_mstatus_mie</obj_property>
+         <obj_property name="ObjectShortName">csr_mstatus_mie</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group130" type="group">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/intr" type="logic">
+         <obj_property name="ElementShortName">intr</obj_property>
+         <obj_property name="ObjectShortName">intr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/RST" type="logic">
+         <obj_property name="ElementShortName">RST</obj_property>
+         <obj_property name="ObjectShortName">RST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/func3" type="array">
+         <obj_property name="ElementShortName">func3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/pcWrite" type="logic">
+         <obj_property name="ElementShortName">pcWrite</obj_property>
+         <obj_property name="ObjectShortName">pcWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/regWrite" type="logic">
+         <obj_property name="ElementShortName">regWrite</obj_property>
+         <obj_property name="ObjectShortName">regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/memWE2" type="logic">
+         <obj_property name="ElementShortName">memWE2</obj_property>
+         <obj_property name="ObjectShortName">memWE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/memRDEN1" type="logic">
+         <obj_property name="ElementShortName">memRDEN1</obj_property>
+         <obj_property name="ObjectShortName">memRDEN1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/memRDEN2" type="logic">
+         <obj_property name="ElementShortName">memRDEN2</obj_property>
+         <obj_property name="ObjectShortName">memRDEN2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/csr_WE" type="logic">
+         <obj_property name="ElementShortName">csr_WE</obj_property>
+         <obj_property name="ObjectShortName">csr_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/int_taken" type="logic">
+         <obj_property name="ElementShortName">int_taken</obj_property>
+         <obj_property name="ObjectShortName">int_taken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/mret_exec" type="logic">
+         <obj_property name="ElementShortName">mret_exec</obj_property>
+         <obj_property name="ObjectShortName">mret_exec</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/NS" type="array">
+         <obj_property name="ElementShortName">NS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">NS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/PS" type="array">
+         <obj_property name="ElementShortName">PS[2:0]</obj_property>
+         <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_fsm/OPCODE" type="array">
+         <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+         <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group131" type="group">
+      <obj_property name="label">DCDR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/br_eq" type="logic">
+         <obj_property name="ElementShortName">br_eq</obj_property>
+         <obj_property name="ObjectShortName">br_eq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/br_lt" type="logic">
+         <obj_property name="ElementShortName">br_lt</obj_property>
+         <obj_property name="ObjectShortName">br_lt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/br_ltu" type="logic">
+         <obj_property name="ElementShortName">br_ltu</obj_property>
+         <obj_property name="ObjectShortName">br_ltu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/opcode" type="array">
+         <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+         <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/func7" type="logic">
+         <obj_property name="ElementShortName">func7</obj_property>
+         <obj_property name="ObjectShortName">func7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/func3" type="array">
+         <obj_property name="ElementShortName">func3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/int_taken" type="logic">
+         <obj_property name="ElementShortName">int_taken</obj_property>
+         <obj_property name="ObjectShortName">int_taken</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/alu_fun" type="array">
+         <obj_property name="ElementShortName">alu_fun[3:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_fun[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/pcSource" type="array">
+         <obj_property name="ElementShortName">pcSource[2:0]</obj_property>
+         <obj_property name="ObjectShortName">pcSource[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/alu_srcA" type="array">
+         <obj_property name="ElementShortName">alu_srcA[1:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_srcA[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/alu_srcB" type="array">
+         <obj_property name="ElementShortName">alu_srcB[2:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_srcB[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/rf_wr_sel" type="array">
+         <obj_property name="ElementShortName">rf_wr_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rf_wr_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/OPCODE" type="array">
+         <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+         <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/my_cu_dcdr/FUNC3" type="array">
+         <obj_property name="ElementShortName">FUNC3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">FUNC3[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group178" type="group">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_CLK" type="logic">
+         <obj_property name="ElementShortName">MEM_CLK</obj_property>
+         <obj_property name="ObjectShortName">MEM_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_RDEN1" type="logic">
+         <obj_property name="ElementShortName">MEM_RDEN1</obj_property>
+         <obj_property name="ObjectShortName">MEM_RDEN1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_RDEN2" type="logic">
+         <obj_property name="ElementShortName">MEM_RDEN2</obj_property>
+         <obj_property name="ObjectShortName">MEM_RDEN2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_WE2" type="logic">
+         <obj_property name="ElementShortName">MEM_WE2</obj_property>
+         <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_ADDR1" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR1[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_ADDR2" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_DIN2" type="array">
+         <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_SIZE" type="array">
+         <obj_property name="ElementShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIZE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_SIGN" type="logic">
+         <obj_property name="ElementShortName">MEM_SIGN</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIGN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/IO_IN" type="array">
+         <obj_property name="ElementShortName">IO_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IO_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/IO_WR" type="logic">
+         <obj_property name="ElementShortName">IO_WR</obj_property>
+         <obj_property name="ObjectShortName">IO_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_DOUT1" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/MEM_DOUT2" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/wordAddr1" type="array">
+         <obj_property name="ElementShortName">wordAddr1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">wordAddr1[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/wordAddr2" type="array">
+         <obj_property name="ElementShortName">wordAddr2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">wordAddr2[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/memReadWord" type="array">
+         <obj_property name="ElementShortName">memReadWord[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memReadWord[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/ioBuffer" type="array">
+         <obj_property name="ElementShortName">ioBuffer[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ioBuffer[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/memReadSized" type="array">
+         <obj_property name="ElementShortName">memReadSized[31:0]</obj_property>
+         <obj_property name="ObjectShortName">memReadSized[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/byteOffset" type="array">
+         <obj_property name="ElementShortName">byteOffset[1:0]</obj_property>
+         <obj_property name="ObjectShortName">byteOffset[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_pipeline/DUT/my_otter/OTTER_MEMORY/weAddrValid" type="logic">
+         <obj_property name="ElementShortName">weAddrValid</obj_property>
+         <obj_property name="ObjectShortName">weAddrValid</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

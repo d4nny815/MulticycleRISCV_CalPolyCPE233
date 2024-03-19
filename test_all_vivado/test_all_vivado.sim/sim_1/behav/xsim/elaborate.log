@@ -1,0 +1,32 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_pipeline_behav xil_defaultlib.test_pipeline xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.cnt_convert_14b
+Compiling module xil_defaultlib.cnt_convert_7b
+Compiling module xil_defaultlib.clk_divder
+Compiling module xil_defaultlib.univ_sseg
+Compiling module xil_defaultlib.clk_2n_div_test(n=17)
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_pipeline
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_pipeline_behav

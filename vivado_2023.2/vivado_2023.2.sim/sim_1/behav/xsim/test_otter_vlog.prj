@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl/register_sync_clr.v" \
+
+sv xil_defaultlib  \
+"../../../../../rtl/CSR.sv" \
+"../../../../../rtl/Otter_Wrapper.sv" \
+"../../../../../rtl/alu.sv" \
+"../../../../../rtl/control_unit_dcdr.sv" \
+"../../../../../rtl/control_unit_fsm.sv" \
+"../../../../../rtl/perphierals/dbounce_v1_01-1.sv" \
+"../../../../../rtl/perphierals/one_shot_posneg_v1_02-1.sv" \
+"../../../../../rtl/otter_mcu.sv" \
+"../../../../../rtl/otter_memory.sv" \
+"../../../../../rtl/reg_file.sv" \
+"../../../../../rtl/perphierals/timer_counter_v1_02.sv" \
+"../../../../../rtl/test_otter.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

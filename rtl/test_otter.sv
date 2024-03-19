@@ -20,25 +20,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module test_pipeline();
+module test_otter();
     logic clk, rst;
-    
-    // OTTER_MCU DUT (
-    //     .CLK        (clk),
-    //     .RESET      (rst),
-    //     .INTR       (1'b0),
-    //     .IOBUS_IN   (32'b0),
-    //     .IOBUS_OUT  (),
-    //     .IOBUS_ADDR (), 
-    //     .IOBUS_WR   () 
-    // );
-
     logic [15:0] leds;
     logic [4:0] btns;
     OTTER_Wrapper DUT (
         .clk        (clk),
         .buttons    (btns),
-        .switches   (16'b0),
+        .switches   (16'b0), 
         .leds       (leds),
         .segs       (),
         .an         ()

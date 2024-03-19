@@ -7,11 +7,11 @@
 // Design Name:   
 // Module Name: OTTER_Wrapper 
 // Project Name:  
-// Target Devices: 
+// Target Devices:  
 // Tool Versions: 
 // Description: Otter Wrapper: interfaces RISC-V OTTER to basys3 board. 
 //
-// Dependencies:   
+// Dependencies:     
 // 
 // Revision:
 // Revision 1.02 - (02-02-2020): first released version; not fully tested
@@ -25,7 +25,7 @@
 //////////////////////////////////////////////////////////////////////////////////
  
   module OTTER_Wrapper(   
-    input clk,              // 100 MHz clock
+    input clk,              // 100 MHz clock 
     input [4:0] buttons,  
     input [15:0] switches,   
     output logic [15:0] leds,
@@ -34,8 +34,8 @@
     ); 
          
     //- INPUT PORT IDS ---------------------------------------------------------
-    localparam BUTTONS_PORT_ADDR      = 32'h11008004;  // 0x11008004
     localparam SWITCHES_PORT_ADDR     = 32'h11008000;  // 0x11008000  
+    localparam BUTTONS_PORT_ADDR      = 32'h11008004;  // 0x11008004
                   
     //- OUTPUT PORT IDS --------------------------------------------------------
     localparam LEDS_PORT_ADDR         = 32'h1100C000;  // 0x1100C000 
@@ -67,7 +67,7 @@
     logic pos_pulse_out; 
 
     //- timer-counter input support
-    localparam TMR_CNTR_CNT_OUT  = 32'h11008008;   // 0x1100_8004
+    localparam TMR_CNTR_CNT_OUT  = 32'h11008008;   // 0x1100_8008
 
     //- timer-counter output support
     localparam TMR_CNTR_CSR_ADDR     = 32'h1100D000;   // 0x1100_D000
@@ -105,11 +105,11 @@
         .CLK        (CLK_50MHz),   
         .RESET      (s_reset),  
         .INTR       (s_tc_intr | pos_pulse_out),
-        .IOBUS_IN   (IOBUS_in),  
+        .IOBUS_IN   (IOBUS_in),   
         .IOBUS_OUT  (IOBUS_out),  
         .IOBUS_ADDR (IOBUS_addr),
-        .IOBUS_WR   (IOBUS_wr)
-    );
+        .IOBUS_WR   (IOBUS_wr)  
+    ); 
     
     //- Divide clk by 2 
     always_ff @ (posedge clk)
@@ -118,14 +118,14 @@
     //- Drive dev board output devices with registers 
     always_ff @ (posedge CLK_50MHz) begin
         if (IOBUS_wr == 1) begin 
-            case(IOBUS_addr)
-                LEDS_PORT_ADDR:   r_leds <= IOBUS_out[15:0];    
+            case(IOBUS_addr) 
+                LEDS_PORT_ADDR:   r_leds <= IOBUS_out[15:0];     
                 SEGS_PORT_ADDR:   r_segs <= IOBUS_out[7:0];
                 ANODES_PORT_ADDR: r_an   <= IOBUS_out[3:0];
                 TMR_CNTR_CSR_ADDR:    r_tc_csr  <= IOBUS_out[7:0];
                 TMR_CNTR_CNT_IN_ADDR: r_tc_cnt_in <= IOBUS_out[31:0];          
             endcase
-         end 
+         end  
      end
      
      

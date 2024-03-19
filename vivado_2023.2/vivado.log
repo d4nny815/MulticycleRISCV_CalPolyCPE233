@@ -1,0 +1,1448 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Mar 19 00:47:54 2024
+# Process ID: 23872
+# Current directory: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14468 C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\vivado_2023.2\vivado_2023.2.xpr
+# Log file: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado.log
+# Journal file: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2\vivado.jou
+# Running On: RaijinPC, OS: Windows, CPU Frequency: 4200 MHz, CPU Physical cores: 32, Host memory: 33457 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.gen/sources_1'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp'.
+WARNING: [Project 1-865] Could not find the file C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1513.445 ; gain = 99.195
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+ERROR: [Vivado 12-3280] Incremental checkpoint file 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp' set on run 'synth_1' does not exist.
+set_property AUTO_INCREMENTAL_CHECKPOINT 0 [get_runs synth_1]
+INFO: [Vivado 12-7078] The incremental_compile property on the run reflects the DCP used to generate the current run results. If you do not want to use "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.srcs/utils_1/imports/synth_1/OTTER_Wrapper.dcp" for future runs, please clear the incremental_compile DCP run property.
+set_property incremental_checkpoint {} [get_runs synth_1]
+launch_runs synth_1 -jobs 4
+[Tue Mar 19 00:50:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 00:52:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 21:31:40
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO is off.
+ECHO is off.
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-21:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1991.270 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B5A835A
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:18:38 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:18:38 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/register_sync_clr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_nb_sclr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/Otter_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/dbounce_v1_01-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/one_shot_posneg_v1_02-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/timer_counter_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_counter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DBounce(n=3)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.timer_counter
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_otter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_otter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+WARNING: Simulation object /test_pipeline/clk was not found in the design.
+WARNING: Simulation object /test_pipeline/rst was not found in the design.
+WARNING: Simulation object /test_pipeline/leds was not found in the design.
+WARNING: Simulation object /test_pipeline/btns was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/pc was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/ir was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/pcSource was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/MY_PC/data_in was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/jalr was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/jal was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/branch was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/u_type was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/i_type was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/s_type was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/b_type was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/j_type was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/jalr was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/jal was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/branch was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/br_eq was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/br_lt was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/br_ltu was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/opcode was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/func7 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/func3 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/int_taken was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/alu_fun was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/pcSource was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/alu_srcA was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/alu_srcB was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/rf_wr_sel was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/OPCODE was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_cu_dcdr/FUNC3 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/intr was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/clk was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/RST was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/func3 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/pcWrite was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/regWrite was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/memWE2 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/memRDEN1 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/memRDEN2 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/reset was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/csr_WE was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/int_taken was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/mret_exec was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/NS was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/PS was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_fsm/OPCODE was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_alu/alu_fun was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_alu/srcA was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_alu/srcB was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_alu/result was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/my_alu/ALU_FUN was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/rs1 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/rs2 was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/br_eq was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/br_lt was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/br_ltu was not found in the design.
+WARNING: Simulation object /test_pipeline/DUT/OTTER_CORE/pc was not found in the design.
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1991.270 ; gain = 0.000
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+run 1 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:34:08 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:34:08 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:36:42 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:36:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/Otter_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/dbounce_v1_01-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/one_shot_posneg_v1_02-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/timer_counter_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_otter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DBounce(n=3)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.timer_counter
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_otter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_otter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:43:48 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:43:48 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/Otter_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/dbounce_v1_01-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/one_shot_posneg_v1_02-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/timer_counter_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_otter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DBounce(n=3)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.timer_counter
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_otter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_otter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+reset_run synth_1
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors.
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:51:10 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:51:11 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 01:54:09 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 01:54:09 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 02:02:47 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 02:02:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/Otter_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/dbounce_v1_01-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/one_shot_posneg_v1_02-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/timer_counter_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_otter
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DBounce(n=3)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.timer_counter
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_otter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_otter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+run 1 ms
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_otter' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_otter_behav -key {Behavioral:sim_1:Functional:test_otter} -tclbatch {test_otter.tcl} -view {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg
+source test_otter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_otter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+run 1 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/Otter_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/dbounce_v1_01-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/one_shot_posneg_v1_02-1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/timer_counter_v1_02.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_otter
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv:44]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv:89]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:75]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv:88]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.DBounce(n=3)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.timer_counter
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.reg_nb_sclr(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.test_otter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_otter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+relaunch_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+ERROR: [Common 17-180] Spawn failed: No error
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+ERROR: [USF-XSim-62] 'compile' step failed with error(s) while executing 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim/compile.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj test_otter_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'test_otter'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_otter_behav xil_defaultlib.test_otter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+$finish called at time : 600 ns : File "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" Line 47
+run 1 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+run 1 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+run 1 ms
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-39] 'run' failed due to earlier errors.
+run 1 ms
+run 1 ms
+run 5 ms
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+save_wave_config {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/test_pipeline_behav.wcfg}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 02:42:33 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 02:42:33 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 02:47:25 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 02:47:25 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 02:52:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 02:52:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 03:03:07 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 03:03:07 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\test_otter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\D4nny\Documents\tmp\MulticycleRISCV_CalPolyCPE233\rtl\Otter_Wrapper.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar 19 03:06:29 2024] Launched synth_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/synth_1/runme.log
+[Tue Mar 19 03:06:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/vivado_2023.2/vivado_2023.2.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 19 03:09:20 2024...

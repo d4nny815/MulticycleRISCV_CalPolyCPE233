@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl/perphierals/clk_2n_div.v" \
+"../../../../../rtl/register_sync_clr.v" \
+"../../../../../rtl/perphierals/univ_sseg.v" \
+
+sv xil_defaultlib  \
+"../../../../../rtl/CSR.sv" \
+"../../../../../rtl/alu.sv" \
+"../../../../../rtl/control_unit_dcdr.sv" \
+"../../../../../rtl/control_unit_fsm.sv" \
+"../../../../../rtl/otter_mcu.sv" \
+"../../../../../rtl/otter_memory.sv" \
+"../../../../../rtl/reg_file.sv" \
+"../../../../../rtl/testAll_Wrapper.sv" \
+"../../../../../rtl/test_otter.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

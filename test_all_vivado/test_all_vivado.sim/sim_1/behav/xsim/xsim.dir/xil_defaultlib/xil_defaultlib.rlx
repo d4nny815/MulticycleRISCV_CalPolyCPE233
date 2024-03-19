@@ -1,0 +1,17 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv,,CSR,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv,,ALU,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv,,CU_DCDR,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv,,CU_FSM,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv,,OTTER_MCU,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv,,Memory,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/clk_2n_div.v,1710832295,verilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/register_sync_clr.v,,clk_2n_div_test,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/univ_sseg.v,1673382116,verilog,,,,clk_divder;cnt_convert_14b;cnt_convert_7b;univ_sseg,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv,1710831975,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/testAll_Wrapper.sv,,RegFile,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/register_sync_clr.v,1710831975,verilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/perphierals/univ_sseg.v,,reg_nb_sclr,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/testAll_Wrapper.sv,1710832995,systemVerilog,,C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv,,OTTER_Wrapper,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv,1710831975,systemVerilog,,,,test_pipeline,,uvm,,,,,,
+C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/test_all_vivado/test_all_vivado.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,

@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/CSR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_dcdr.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/control_unit_fsm.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_mcu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_MCU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/otter_memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/reg_file.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/testAll_Wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/D4nny/Documents/tmp/MulticycleRISCV_CalPolyCPE233/rtl/test_otter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_pipeline

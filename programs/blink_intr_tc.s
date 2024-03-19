@@ -7,9 +7,9 @@ init:
     # INIT TC
     li t6, 0x1100D000           # TC CSR port address
     li t5, 0x1100D004           # TC count port address
-    li t0, 50000000             # blink rate, 1Hz
+    li t0, 50000000             # blink rate, 1Hz, SYSCLK = 50MHz
     sw t0, 0(t5)                # init TC count
-    li t0, 0x01                 # init TC CSR
+    li t0, 0x1                  # init TC CSR
     sw t0, 0(t6)                # no prescale, turn on TC
 
     li s10, 0x1100C000          # addr for leds

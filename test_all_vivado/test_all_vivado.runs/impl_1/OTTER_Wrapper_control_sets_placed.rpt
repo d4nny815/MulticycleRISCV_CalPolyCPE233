@@ -1,0 +1,93 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Mar 19 00:30:06 2024
+| Host         : RaijinPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file OTTER_Wrapper_control_sets_placed.rpt
+| Design       : OTTER_Wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    24 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              43 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               4 |            4 |
+| Yes          | No                    | No                     |              66 |           39 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             143 |           61 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+-------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|        Clock Signal       |                  Enable Signal                  |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++---------------------------+-------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  my_univ_sseg/CLK_DIV/CLK |                                                 |                                              |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG            |                                                 |                                              |                3 |              3 |         1.00 |
+|  count_reg[17]            |                                                 | my_otter/my_fsm/reset                        |                4 |              4 |         1.00 |
+|  count_reg[17]            | my_otter/my_fsm/Q[1]                            |                                              |                2 |              4 |         2.00 |
+|  count_reg[17]            |                                                 |                                              |                5 |              6 |         1.20 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/E[0]                      |                                              |               10 |             14 |         1.40 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[2]_2[0] |                                              |               11 |             16 |         1.45 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[2]      | my_otter/OTTER_MEMORY/ioBuffer[15]_i_1_n_0   |                9 |             16 |         1.78 |
+|  count_reg[17]            | my_otter/my_fsm/p_0_out[0]                      | my_otter/my_fsm/FSM_onehot_PS_reg[0]_0       |               13 |             31 |         2.38 |
+|  s_clk_BUFG               |                                                 |                                              |                9 |             32 |         3.56 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[0]_2    | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[0]_1 |               13 |             32 |         2.46 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[0]      | my_otter/OTTER_MEMORY/FSM_onehot_PS_reg[0]_0 |               12 |             32 |         2.67 |
+|  count_reg[17]            | reg_file_reg_r1_0_31_0_5_i_52_n_0               |                                              |               16 |             32 |         2.00 |
+|  count_reg[17]            | my_otter/my_fsm/E[0]                            | my_otter/my_fsm/Q[0]                         |               14 |             32 |         2.29 |
+|  count_reg[17]            | my_otter/OTTER_MEMORY/p_0_in                    |                                              |               11 |             88 |         8.00 |
++---------------------------+-------------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+

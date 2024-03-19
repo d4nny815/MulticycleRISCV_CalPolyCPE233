@@ -141,26 +141,15 @@ module CU_FSM(
                 memWE2 = 1'b0;           // No write to memory
                 memRDEN2 = 1'b0;         // No read from memory
 
+                if (intr && (OPCODE != LOAD))
+                    NS = st_INTR;
+                else
+                    NS = st_FET;
+
+
                 case (OPCODE)
-                    LUI: begin 
-                        NS = st_FET;
-                    end
-
-                    AUIPC: begin 
-                        NS = st_FET;
-                    end
-
-                    JAL: begin
-                        NS = st_FET;
-                    end
-
-                    JALR: begin
-                        NS = st_FET;
-                    end
-
                     BRANCH: begin
                         regWrite = 1'b0;        // No write to register file
-                        NS = st_FET;
                     end
 
                     LOAD: begin
@@ -173,19 +162,9 @@ module CU_FSM(
                     STORE: begin
                         regWrite = 1'b0;        // No write to register file
                         memWE2 = 1'b1;          // write to memory
-                        NS = st_FET;
-                    end
-
-                    OP_IMM: begin // immediate operations
-                        NS = st_FET;
-                    end
-
-                    OP_RG3: begin // register operations
-                        NS = st_FET;
                     end
 
                     SYS: begin
-                        reset = 1'b0;           // No reset
                         case(func3)
                         3'b000: begin           //mret
                             regWrite = 1'b0;    // No write to register file
@@ -204,8 +183,7 @@ module CU_FSM(
                         NS = st_FET;
                     end
                 endcase
-                if (intr == 1 && (OPCODE != LOAD))
-                    NS = st_INTR;
+                
             end
 
             st_WB: begin
@@ -215,7 +193,7 @@ module CU_FSM(
                 memRDEN1 = 1'b0;
                 memRDEN2 = 1'b0;
                 reset = 1'b0;
-                if (intr == 1)
+                if (intr)
                     NS = st_INTR;
                 else 
                     NS = st_FET;
